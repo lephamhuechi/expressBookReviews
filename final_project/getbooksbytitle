@@ -1,0 +1,11 @@
+$ curl localhost:5000/title/Fairy%20tales
+{
+    "booksbytitle": [
+        {
+            "isbn": "2",
+            "author": "Hans Christian Andersen",
+            "title": "Fairy tales",
+            "reviews": {}
+        }
+    ]
+}
